@@ -2,9 +2,6 @@
 
 <html xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'home')}">
 
-  <header>
-  <link rel="stylesheet" href="../static/resources/css/login.css"/>
-  </header>
   <body>
 
     <h2 th:text="#{welcome}">Welcome</h2>
